@@ -1,0 +1,35 @@
+.list {
+  padding-top: 48px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  list-style: none;
+}
+
+.reviewCard {
+  background-color: #1c1c1c;
+  color: #f0f0f0;
+  border-radius: 8px;
+  padding: 16px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  margin-bottom: 20px;
+}
+
+.reviewCard:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 255, 0.4);
+  transform: translateY(-5px);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.reviewAuthor {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: #00bfff;
+}
+
+.reviewContent {
+  font-size: 1rem;
+  line-height: 1.7;
+  color: #d3d3d3;
+}

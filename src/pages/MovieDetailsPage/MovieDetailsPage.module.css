@@ -1,5 +1,14 @@
+.title {
+  text-align: center;
+  margin-bottom: 40px;
+  padding-top: 40px;
+  text-transform: uppercase;
+}
 
-        .moviedetailspage {
-        /* Your styles here */
-        }
-        
+.additionalTitle {
+  margin-top: 50px;
+  text-transform: uppercase;
+  text-align: center;
+  color: #d5d5d7;
+  text-shadow: 2px 2px 14px rgba(172, 172, 226, 0.7);
+}

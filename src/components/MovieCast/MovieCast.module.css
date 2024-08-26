@@ -1,0 +1,18 @@
+.cardList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.cardItem {
+  box-shadow: 2px 2px 12px rgb(45, 84, 212, 0.5),
+    2px 2px 6px rgba(4, 78, 236, 0.5);
+  /* border-radius: 8px; */
+  padding: 4px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}

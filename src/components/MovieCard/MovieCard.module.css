@@ -1,0 +1,32 @@
+.movieContent {
+  text-align: center;
+  padding-block: 24px;
+  padding-inline: 12px;
+}
+
+.moviePoster {
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.movieTitle {
+  margin-top: 10px;
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+/* Стиль при наведении */
+a:hover .movieTitle {
+  color: #007bff;
+}
+
+.noImg {
+  border-radius: 8px;
+  font-size: 20px;
+  background-color: rgb(27, 25, 25);
+  height: 465px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}

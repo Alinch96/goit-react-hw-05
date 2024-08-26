@@ -1,5 +1,32 @@
+.paginationContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 48px;
+  padding: 0 12px;
+}
 
-        .moviespage {
-        /* Your styles here */
-        }
-        
+.paginationBtn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 10px;
+  background-color: transparent;
+  color: #feffff;
+  border: 2px solid #007bff;
+  border-radius: 5px;
+  font-size: 16px;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.paginationBtn:hover {
+  transform: translateY(-2px);
+  box-shadow: 4px 4px 10px rgba(0, 0, 139, 0.2);
+}
+
+.icon {
+  margin: 0 8px;
+  font-size: 18px;
+}

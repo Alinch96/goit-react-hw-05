@@ -5,7 +5,7 @@ import fs from 'fs';
 import path from 'path';
 try {
   // Define the path to the components directory
-  const componentsDir = path.join(process.cwd(), 'src', 'pages');
+  const componentsDir = path.join(process.cwd(), 'src', 'components');
 
   // Check if the components directory exists
   if (!fs.existsSync(componentsDir)) {

@@ -1,0 +1,21 @@
+.moviesList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  column-gap: 24px;
+  row-gap: 72px;
+}
+
+.movieItem {
+  width: calc((100% - 3 * 24px) / 4);
+}
+
+.movieLink {
+  border-radius: 8px;
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.movieLink:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  transform: scale(1.1);
+}

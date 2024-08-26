@@ -1,0 +1,33 @@
+.header {
+  box-shadow: 0 4px 12px rgba(115, 112, 112, 0.5);
+  background-color: #242424;
+  position: sticky;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+header .headerContainer {
+  padding-block: 20px;
+}
+
+.navList {
+  display: flex;
+}
+
+.link {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px 20px;
+  font-size: 18px;
+  font-weight: 500;
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+.active {
+  color: #007bff;
+}
+
+.link:hover {
+  background-color: #5e5e5e;
+  border-radius: 4px;
+}
