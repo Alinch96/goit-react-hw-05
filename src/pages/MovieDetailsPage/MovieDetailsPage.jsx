@@ -55,7 +55,9 @@ const MovieDetailsPage = () => {
 
       {movieDetails && <MovieDetails movieDetails={movieDetails} />}
 
-      <h2 className={styles.additionalTitle}>Additional information</h2>
+      {movieDetails && (
+        <h2 className={styles.additionalTitle}>Additional information</h2>
+      )}
 
       {movieDetails && <SubNavigation />}
 
